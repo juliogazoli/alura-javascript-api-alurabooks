@@ -6,6 +6,6 @@ function mandaMensagem() {
     console.log("Solicitação recebida!");
 }
 
-mandaMensagem();
+setTimeout(mandaMensagem, 5000);
 
 console.log("Tchau tchau!")
